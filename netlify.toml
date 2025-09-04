@@ -1,0 +1,6 @@
+# netlify.toml
+
+[build]
+  functions    = "functions"
+  publish      = "."
+

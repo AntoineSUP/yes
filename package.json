@@ -1,0 +1,18 @@
+
+{
+  "name": "sendcloud-stripe-backend",
+  "version": "1.0.0",
+  "description": "Backend functions for Webflow e-commerce with Sendcloud + Stripe",
+  "main": "functions/webhook-stripe.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "stripe": "^12.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemailer": "^6.9.1"
+  }
+}
